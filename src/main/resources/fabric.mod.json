@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "enjoy_music",
+  "version": "${version}",
+  "name": "enjoy_music",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/傻逼/enjoy_music"
+  },
+  "mixins": ["ejm.mixins.json"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.caixukun.enjoy_music.client.Enjoy_musicClient"
+    ],
+    "main": [
+      "com.caixukun.enjoy_music.Enjoy_music"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

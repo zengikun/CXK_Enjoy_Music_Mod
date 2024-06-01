@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.caixukun.enjoy_music.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinSound"
+  ],
+  "client": [
+    "MixinSound"
+  ],
+  "server": [
+    "MixinSound"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
